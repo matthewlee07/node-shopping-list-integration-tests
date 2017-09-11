@@ -1,2 +1,8 @@
 language: node_js
 node_js: node
+deploy: desolate-reef-19673
+  provider: heroku
+  api_key: 7230d71d-a43e-4bec-90c2-c8a2bd8bc67b
+  app: node-shopping-list-integration-tests
+  on:
+    repo: matthewlee07/node-shopping-list-integration-tests
